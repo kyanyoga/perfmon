@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /opt/perfmon
 SERVICE="$1"
 SERVICE="python"
 RESULT=`ps -a | sed -n /${SERVICE}/p`
