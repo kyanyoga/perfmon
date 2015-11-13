@@ -95,4 +95,5 @@ while (True):
     #print newline
 
     # sleep to slow down generation
-    time.sleep( .250 / 1000.0 )
+    # Prev (.775/ 1000.0) : 1.5GB /hr  
+    time.sleep( .250 / 1000.0 )  # should be 4.5GB /hr
