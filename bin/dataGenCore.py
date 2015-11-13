@@ -95,4 +95,4 @@ while (True):
     #print newline
 
     # sleep to slow down generation
-    time.sleep( .7750 / 1000.0 )
+    time.sleep( .250 / 1000.0 )
