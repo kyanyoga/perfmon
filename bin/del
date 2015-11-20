@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# del the sample data files
+rm -f /opt/perfmon/sample_data/*.log
