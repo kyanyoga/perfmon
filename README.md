@@ -1,7 +1,8 @@
 # perfmon
-Python perfmon data generator.
+## Python perfmon data generator : Performance Monitor 
 
-This will generate about 1.5GB per hour of weblog file. Used to benchmark data ingestion.
+This will generate about 1.5GB per hour of simulated weblog file. Used to benchmark data ingestion.
+use-case: arcsight, splunk, elasticsearch ingestion.
 
 ## install 
 1) install python on target system.
@@ -12,3 +13,5 @@ This will generate about 1.5GB per hour of weblog file. Used to benchmark data i
 
 ## stop
 . bin/stopdg.sh
+
+keywords: docker, data generator, python, splunk, elasticsearch
